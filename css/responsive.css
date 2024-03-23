@@ -1,0 +1,79 @@
+@media(max-width: 1200px) {
+
+    .main .image img {
+        width: 50%;
+    }
+}
+
+@media(max-width: 840px) {
+
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+    }
+
+    .main .image {
+        flex-direction: column;
+
+    }
+
+    .main .social {
+        justify-content: center;
+    }
+
+    .main .image img {
+        width: 85%;
+        margin: 0px 20px;
+    }
+
+    .huddle {
+        margin: 50px 45px;
+    }
+
+    .main .about {
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .main .about .btn {
+        margin-top: 50px;
+        padding: 10px 70px;
+    }
+
+    .main .about .social {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .social a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social a i {
+        font-size: 20px;
+
+    }
+
+
+}
+
+@media(max-width: 475px) {
+    .huddle {
+        margin: 25px 30px 40px;
+    }
+
+    .huddle img {
+        width: 150px;
+    }
+
+    .main .about h1 {
+        font-size: 20px;
+    }
+
+    .main .about p {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+}
